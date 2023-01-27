@@ -15,7 +15,7 @@ const addIngredients = (addItem, list) => {
     list.push(addItem);
   }
 
-  return list.length;
+  return list;
 };
 
 const formatPrice = (amount) => {
